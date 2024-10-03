@@ -1,0 +1,79 @@
+body {
+  background-color: #0e0e0e;
+}
+.main-page {
+  /* height: 100vh; */
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.content-1 {
+  height: calc(100vh - 80px);
+}
+@font-face {
+  font-family: cur1;
+  src: url("fonts/GreatVibes-Regular.ttf");
+}
+.lts {
+  font-size: 4rem;
+  font-family: cur1;
+}
+.about {
+  background-color: #172027;
+}
+.recipes {
+  background-color: #172027;
+}
+.res-img {
+  background-color: aqua;
+}
+.i-1 {
+  background-image: url("img/i-1.jpg");
+  background-size: cover;
+}
+.i-2 {
+  background-image: url("img/i-2.jpg");
+  background-size: cover;
+}
+.i-3 {
+  background-image: url("img/i-3.jpg");
+  background-size: cover;
+}
+.video {
+  height: 100vh;
+  background-color: #172027;
+}
+.video-img-box {
+  background-image: url("img/foodvideo.jpg");
+  background-size: cover;
+}
+.video-player {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: white;
+}
+.play-list-box {
+  height: 100%;
+  background-image: url("img/i-1.jpg");
+  background-size: cover;
+}
+.testimonals {
+  height: 70vh;
+  background-color: #172027;
+}
+.t-img {
+  height: 100%;
+  background-image: url("img/i-2.jpg");
+  background-size: cover;
+}
+.footer {
+  height: 100px;
+  background-color: #172027;
+}
